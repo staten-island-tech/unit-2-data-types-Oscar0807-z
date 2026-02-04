@@ -16,7 +16,7 @@ elif int(tip) == 10:
     if age < 12 or age >= 65 and (isResident or isMember):
         print ('qualifies') """
 
-service = input("How was the service?")
+service = input("How was the service?").capitalize
 if service == "Great":
     print("25%")
 elif service == "Good":
