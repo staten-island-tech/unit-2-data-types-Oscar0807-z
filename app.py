@@ -1,22 +1,9 @@
-""" tip = input("How much did you tip")
-if (tip) == 25:
-    print ('great')
-elif int(tip) == 20:
-     print ('good')
-elif int(tip) == 15:
-     print ('okay')
-elif int(tip) == 10:
-     print ('bad')  """
-
-
-
-
 
 """ def discount (age, isMember, isResident):
     if age < 12 or age >= 65 and (isResident or isMember):
         print ('qualifies') """
 
-service = input("How was the service?").capitalize
+""" service = input("How was the service?")
 if service == "Great":
     print("25%")
 elif service == "Good":
@@ -24,4 +11,9 @@ elif service == "Good":
 elif service == "Okay":
     print("15%")
 elif service == "Bad":
-    print("0%")
+    print("0%") """
+values = [1,2.23,5,7,2,30,15]
+print(values)
+for i in values:
+    print(i)
+
