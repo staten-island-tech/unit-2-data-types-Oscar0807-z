@@ -12,8 +12,3 @@ elif service == "Okay":
     print("15%")
 elif service == "Bad":
     print("0%") """
-values = [1,2.23,5,7,2,30,15]
-print(values)
-for i in values:
-    print(i)
-
