@@ -12,6 +12,4 @@ elif service == "Okay":
     print("15%")
 elif service == "Bad":
     print("0%") """
-number = input("What number would you like to use")
-if number % 2 == 0:
-    print ("6")
+
